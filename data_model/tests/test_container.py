@@ -43,3 +43,11 @@ def test_iter(container):
     container['c'] = 3
     for i in container:
         print(i)
+
+
+def test_async_iter(container):
+    container['a'] = 1
+    container['b'] = 2
+    container['c'] = 3
+    async for i in container:
+        print(i)

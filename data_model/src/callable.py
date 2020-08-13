@@ -1,0 +1,3 @@
+
+class Callable:
+    pass
