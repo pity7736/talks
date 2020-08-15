@@ -1,3 +1,5 @@
 
 class Callable:
-    pass
+
+    def __call__(self, *args, **kwargs):
+        return 'hi world'
